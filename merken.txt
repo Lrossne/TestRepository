@@ -19,7 +19,7 @@ git clone REMOTE C:\Users\Lucas\Documents\Git_Test\projekt1
 Visual Studio Code öffnen um git zu bearbeiten:
 code .
 
-Ordner nach Veränderungen überprüfen:
+Aktuellen Status anzeigen:
 git status
 
 Datei stagen (Überwachung starten):
@@ -27,3 +27,6 @@ git add merken.txt
 
 Den Status in Änderungshistorie eintragen:
 git commit -m "Änderungsnachricht"
+
+Bisherige Commits anzeigen:
+git log
