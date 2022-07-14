@@ -58,4 +58,13 @@ Aktuellen Stand abfragen und auf Repository anwenden:
 git pull
 
 Lokalen Stand auf Remote kopieren:
-git push
+git push (--force)
+
+
+GITIGNORE
+git ignore anlegen:
+visualstudiocode -> neue datei namens .gitignore 
+
+    Beispielinhalt:
+    file.txt
+    Test_gitkopie/
