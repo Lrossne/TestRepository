@@ -1,1 +1,26 @@
-sheesh
+Name festlegen:
+git config --global user.name "Name"
+
+Email festlegen:
+git config --global user.email "Email"
+
+Ordner verlassen:
+cd..
+
+Ordner reingehen:
+cd C:\Users\Lucas\Documents\Git_Test\projekt1
+
+Versionsverwaltung im Ordner starten:
+git init
+
+Visual Studio Code öffnen um git zu bearbeiten:
+code .
+
+Ordner nach Veränderungen überprüfen:
+git status
+
+Datei stagen (Überwachung starten):
+git add merken.txt
+
+Den Status in Änderungshistorie eintragen:
+git commit -m "Änderungsnachricht"
