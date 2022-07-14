@@ -39,3 +39,23 @@ git branch neuer_branch Masterbranch
 
 Arbeitsbranch auf angegebenen Branch wechseln:
 git checkout neuer_branch
+
+Änderungen in AKTUELLEN Arbeitsbranch leiten:
+git merge BRANCHNAME
+
+
+ONLINE REPOSITORY:
+
+Neues Repository anlegen:
+git remote add origin URL
+git branch -M main
+git push -u origin main
+
+Aktuellen Stand abfragen:
+git fetch
+
+Aktuellen Stand abfragen und auf Repository anwenden:
+git pull
+
+Lokalen Stand auf Remote kopieren:
+git push
