@@ -30,3 +30,12 @@ git commit -m "Änderungsnachricht"
 
 Bisherige Commits anzeigen:
 git log
+
+
+Branches:
+
+Neuer Branch auf Basis Masterbranch:
+git branch neuer_branch Masterbranch
+
+Arbeitsbranch auf angegebenen Branch wechseln:
+git checkout neuer_branch
